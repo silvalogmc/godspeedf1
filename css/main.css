@@ -31,13 +31,17 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2em;
+  padding: 1em;
 }
 
 header .first-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2em;
 }
 
 header .first-list a {
@@ -50,6 +54,10 @@ header .second-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2em;
 }
 
 header .second-list a {
@@ -61,5 +69,25 @@ header .second-list a {
 .logo {
   width: 60%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+}
+
+.welcome-text {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  -webkit-transform: translateY(-650%);
+          transform: translateY(-650%);
+}
+
+.second-text {
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  -webkit-transform: translateY(-930%);
+          transform: translateY(-930%);
 }
 /*# sourceMappingURL=main.css.map */

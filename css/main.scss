@@ -30,9 +30,11 @@ img {
 
 header {
     justify-content: space-between;
-    padding: 2em;
+    padding: 1em;
     .first-list {
         display: flex;
+        justify-content: center;
+        font-size: 2em;
         a {
             font-weight: 200;
             display: block;
@@ -41,6 +43,8 @@ header {
     }
     .second-list {
         display: flex;
+        justify-content: center;
+        font-size: 2em;
         a {
             font-weight: 200;
             display: block;
@@ -52,4 +56,22 @@ header {
 .logo {
     width: 60%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+
+.welcome-text {
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    transform: translateY(-650%);
+}
+
+.second-text {
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    transform: translateY(-930%);
 }
