@@ -29,7 +29,27 @@ img {
 }
 
 header {
-    display: flex;
     justify-content: space-between;
     padding: 2em;
+    .first-list {
+        display: flex;
+        a {
+            font-weight: 200;
+            display: block;
+            padding: 0 2em;
+        }
+    }
+    .second-list {
+        display: flex;
+        a {
+            font-weight: 200;
+            display: block;
+            padding: 0 2em;
+        }
+    }
+}
+
+.logo {
+    width: 60%;
+    height: auto;
 }

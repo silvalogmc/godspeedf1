@@ -28,12 +28,38 @@ img {
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 2em;
+}
+
+header .first-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .first-list a {
+  font-weight: 200;
+  display: block;
+  padding: 0 2em;
+}
+
+header .second-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .second-list a {
+  font-weight: 200;
+  display: block;
+  padding: 0 2em;
+}
+
+.logo {
+  width: 60%;
+  height: auto;
 }
 /*# sourceMappingURL=main.css.map */
