@@ -24,7 +24,6 @@ img {
 
 .nav-container {
     background: #015952;
-    width: 100%;
 
     a {
         color: white;
@@ -34,7 +33,6 @@ img {
 header {
     justify-content: space-between;
     padding: 1em;
-    width: 100%;
     .first-list {
         width: auto;
         height: auto;
@@ -58,9 +56,9 @@ header {
     padding-bottom: 1em;
 }
 
-.hero {
+/*.hero {
     width: 100%;
-}
+} */
 
 .content {
     color: #fff;
