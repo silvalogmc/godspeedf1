@@ -23,7 +23,6 @@ img {
 
 .nav-container {
   background: #015952;
-  width: 100%;
 }
 
 .nav-container a {
@@ -35,7 +34,6 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1em;
-  width: 100%;
 }
 
 header .first-list {
@@ -65,10 +63,9 @@ header .first-list a {
   padding-bottom: 1em;
 }
 
-.hero {
-  width: 100%;
-}
-
+/*.hero {
+    width: 100%;
+} */
 .content {
   color: #fff;
   text-align: center;
