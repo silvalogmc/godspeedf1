@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  width: 100%;
 }
 
 ul {
@@ -22,6 +23,7 @@ img {
 
 .nav-container {
   background: #015952;
+  width: 100%;
 }
 
 .nav-container a {
@@ -33,6 +35,7 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1em;
+  width: 100%;
 }
 
 header .first-list {
@@ -60,6 +63,10 @@ header .first-list a {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1em;
+}
+
+.hero {
+  width: 100%;
 }
 
 .content {

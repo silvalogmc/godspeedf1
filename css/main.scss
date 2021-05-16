@@ -5,6 +5,7 @@ body {
     margin: 0;
     font-family: "Poppins", sans-serif;
     overflow-x: hidden;
+    width: 100%;
 }
 
 ul {
@@ -23,6 +24,7 @@ img {
 
 .nav-container {
     background: #015952;
+    width: 100%;
 
     a {
         color: white;
@@ -32,6 +34,7 @@ img {
 header {
     justify-content: space-between;
     padding: 1em;
+    width: 100%;
     .first-list {
         width: auto;
         height: auto;
@@ -53,6 +56,10 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 1em;
+}
+
+.hero {
+    width: 100%;
 }
 
 .content {
