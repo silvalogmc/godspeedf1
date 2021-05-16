@@ -39,7 +39,7 @@ header {
         display: flex;
         justify-content: center;
         font-size: 2.7vmin;
-        a {
+        .list {
             font-weight: 200;
             display: block;
             padding: 0 1.6em;
@@ -112,4 +112,126 @@ header {
     position: absolute;
     top: -30%;
     left: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        height: 100vh;
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .nav-container {
+        background: #015952;
+    
+        a {
+            color: white;
+        }
+    }
+    
+    header {
+        justify-content: space-between;
+        padding: 0em;
+        display: flex;
+        width: auto;
+        height: 15vh;
+        position: relative;
+        .first-list {
+            width: auto;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            font-size: 2.7vmin;
+            .list {
+                font-weight: 200;
+                display: block;
+                padding: 0 1.6em;
+            }
+        }
+    }
+    
+    .logo {
+        position: absolute;
+        width: 23%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0.8em;
+        padding-left: 1em;
+    }
+    
+    /*.hero {
+        width: 100%;
+    } */
+    
+    .content {
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+        width: 1000px;
+        height: auto;
+    }
+    
+    .welcome-text {
+        font-size: 4vmin;
+        font-weight: 700;
+    }
+    
+    .second-text {
+        font-weight: 300;
+        font-size: 3.5vmin;
+    }
+    
+    .image-green {
+        position: relative;
+    }
+    
+    .insta-logo {
+        width: 7vmin;
+        height: 7vmin;
+    }
+    
+    .instagram {
+        position: absolute;
+        top: 83%; left: 2%;
+        display: inline-block;
+        a {
+            color: #fff; 
+        }
+    }
+    
+    .insta-full {
+        float: left;
+        justify-content: space-between;
+        display: flex;
+        position: relative;
+    
+    }
+    
+    .insta-handle {
+        padding-left: 10%;
+        font-size: 3vmin;
+        position: absolute;
+        top: -30%;
+        left: 100%;
+    }
 }
