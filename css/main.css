@@ -35,32 +35,18 @@ header {
 }
 
 header .first-list {
+  width: auto;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 2em;
+  font-size: 20px;
 }
 
 header .first-list a {
-  font-weight: 200;
-  display: block;
-  padding: 0 2em;
-}
-
-header .second-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 2em;
-}
-
-header .second-list a {
   font-weight: 200;
   display: block;
   padding: 0 2em;
@@ -75,19 +61,29 @@ header .second-list a {
   padding-bottom: 1em;
 }
 
-.welcome-text {
-  color: #fff;
-  font-weight: 700;
+.content {
+  color: black;
   text-align: center;
-  -webkit-transform: translateY(-650%);
-          transform: translateY(-650%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 1000px;
+  height: auto;
+}
+
+.welcome-text {
+  font-size: 4vmin;
+  font-weight: 700;
 }
 
 .second-text {
   font-weight: 300;
-  color: #fff;
-  text-align: center;
-  -webkit-transform: translateY(-930%);
-          transform: translateY(-930%);
+  font-size: 1.5em;
+}
+
+.image-green {
+  position: relative;
 }
 /*# sourceMappingURL=main.css.map */
