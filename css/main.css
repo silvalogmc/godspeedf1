@@ -177,8 +177,10 @@ header .first-list .list {
   }
   header .first-list .list {
     font-weight: 200;
-    display: block;
-    padding: 0 1.6em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 5vh;
   }
   .logo {
     display: inline-block;
@@ -187,12 +189,12 @@ header .first-list .list {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1.5em;
+    padding-top: 1.6em;
     padding-left: 1em;
   }
-  /*.hero {
-        width: 100%;
-    } */
+  .hero {
+    position: relative;
+  }
   .content {
     color: #fff;
     text-align: center;
@@ -221,8 +223,8 @@ header .first-list .list {
   }
   .instagram {
     position: absolute;
-    top: 83%;
-    left: 2%;
+    top: 90%;
+    left: 1%;
     display: inline-block;
   }
   .instagram a {
