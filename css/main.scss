@@ -167,13 +167,13 @@ header {
     }
     
     .logo {
-        position: absolute;
-        width: 50vh;
+        display: inline-block;
+        vertical-align: middle;
+        width: 42vh;
         height: auto;
-        display: block;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 1.3em;
+        padding-top: 1.5em;
         padding-left: 1em;
     }
     
