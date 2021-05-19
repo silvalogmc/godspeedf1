@@ -97,14 +97,14 @@ header .first-list .list {
   height: 7vmin;
 }
 
-.instagram {
+.instagram-mobile {
   position: absolute;
   top: 83%;
   left: 2%;
   display: inline-block;
 }
 
-.instagram a {
+.instagram-mobile a {
   color: #fff;
 }
 
@@ -125,6 +125,10 @@ header .first-list .list {
   position: absolute;
   top: -30%;
   left: 100%;
+}
+
+.instagram {
+  display: none;
 }
 
 @media only screen and (min-width: 800px) {
@@ -247,6 +251,9 @@ header .first-list .list {
     position: absolute;
     top: -30%;
     left: 100%;
+  }
+  .instagram-mobile {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
