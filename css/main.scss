@@ -31,29 +31,36 @@ img {
 }
 
 header {
-    justify-content: space-between;
     padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex1 {
+    order: 1;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
     .first-list {
         width: auto;
         height: auto;
         display: flex;
         justify-content: center;
         font-size: 2.7vmin;
-        .list {
-            font-weight: 200;
-            display: block;
-            padding: 0 1.6em;
-        }
     }
+}
+
+.list {
+    font-weight: 200;
+    display: block;
+    padding: 0 1.6em;
 }
 
 .logo {
     width: 60%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 1em;
 }
 
 /*.hero {
@@ -118,6 +125,41 @@ header {
     display: none;
 }
 
+.nav-desktop {
+    display: none;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.right-header {
+    position: relative;
+}
+
+.icon {
+    background: none;
+    position: absolute;
+    display: block;
+    right: 15%;
+    top: 25%;
+}
+
+.mobile {
+    a:hover {
+        color: black;
+    }
+}
+
+.list-div {
+    order: 2;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+}
+
 @media only screen and (min-width: 800px) {
     body {
         height: 100vh;
@@ -171,8 +213,6 @@ header {
     }
     
     .logo {
-        display: inline-block;
-        vertical-align: middle;
         width: 42vh;
         height: auto;
         margin-left: auto;
@@ -241,6 +281,18 @@ header {
     }
 
     .instagram-mobile {
+        display: none;
+    }
+
+    .nav-desktop {
+        display: contents;
+    }
+
+    .nav-mobile {
+        display: none;
+    }
+
+    .icon {
         display: none;
     }
 }

@@ -30,13 +30,33 @@ img {
 }
 
 header {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-header .first-list {
+.flex1 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .first-list {
   width: auto;
   height: auto;
   display: -webkit-box;
@@ -48,7 +68,7 @@ header .first-list {
   font-size: 2.7vmin;
 }
 
-header .first-list .list {
+.list {
   font-weight: 200;
   display: block;
   padding: 0 1.6em;
@@ -57,10 +77,6 @@ header .first-list .list {
 .logo {
   width: 60%;
   height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 1em;
 }
 
 /*.hero {
@@ -131,6 +147,46 @@ header .first-list .list {
   display: none;
 }
 
+.nav-desktop {
+  display: none;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+.right-header {
+  position: relative;
+}
+
+.icon {
+  background: none;
+  position: absolute;
+  display: block;
+  right: 15%;
+  top: 25%;
+}
+
+.mobile a:hover {
+  color: black;
+}
+
+.list-div {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.flex2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 @media only screen and (min-width: 800px) {
   body {
     height: 100vh;
@@ -187,8 +243,6 @@ header .first-list .list {
     padding-top: 3vh;
   }
   .logo {
-    display: inline-block;
-    vertical-align: middle;
     width: 42vh;
     height: auto;
     margin-left: auto;
@@ -253,6 +307,15 @@ header .first-list .list {
     left: 100%;
   }
   .instagram-mobile {
+    display: none;
+  }
+  .nav-desktop {
+    display: contents;
+  }
+  .nav-mobile {
+    display: none;
+  }
+  .icon {
     display: none;
   }
 }
