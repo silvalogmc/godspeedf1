@@ -161,7 +161,7 @@ header .first-list .list {
     display: -ms-flexbox;
     display: flex;
     width: auto;
-    height: 15vh;
+    height: 10%;
     position: relative;
   }
   header .first-list {
@@ -180,7 +180,7 @@ header .first-list .list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 3vh;
   }
   .logo {
     display: inline-block;
@@ -189,7 +189,7 @@ header .first-list .list {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1.6em;
+    padding-top: 4.5%;
     padding-left: 1em;
   }
   .hero {
