@@ -224,8 +224,9 @@ header .first-list .list {
   .instagram {
     position: absolute;
     top: 90%;
-    left: 1%;
+    left: 32%;
     display: inline-block;
+    padding-top: 2%;
   }
   .instagram a {
     color: #fff;
