@@ -30,7 +30,7 @@ img {
 }
 
 header {
-  padding: 1em;
+  padding: 1.5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,9 +41,7 @@ header {
 }
 
 .flex1 {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  position: relative;
 }
 
 .header {
@@ -71,17 +69,14 @@ header {
 .list {
   font-weight: 200;
   display: block;
-  padding: 0 1.6em;
+  padding: 0 4vmin;
 }
 
 .logo {
-  width: 60%;
+  width: 60vw;
   height: auto;
 }
 
-/*.hero {
-    width: 100%;
-} */
 .content {
   color: #fff;
   text-align: center;
@@ -163,8 +158,12 @@ header {
   background: none;
   position: absolute;
   display: block;
-  right: 15%;
-  top: 25%;
+}
+
+.mobile {
+  position: absolute;
+  right: 2vw;
+  top: 3.5vw;
 }
 
 .mobile a:hover {
