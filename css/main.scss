@@ -36,10 +36,6 @@ header {
     flex-direction: column;
 }
 
-.flex1 {
-    position: relative;
-}
-
 .header {
     display: flex;
     flex-direction: row;
@@ -151,4 +147,9 @@ header {
     .first-list {
         padding-top: 5%;
     }
+
+    .flex1 {
+        position: relative;
+    }
+    
 }

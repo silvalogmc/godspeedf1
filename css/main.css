@@ -40,10 +40,6 @@ header {
           flex-direction: column;
 }
 
-.flex1 {
-  position: relative;
-}
-
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -173,6 +169,9 @@ header {
 @media only screen and (max-width: 1000px) {
   .first-list {
     padding-top: 5%;
+  }
+  .flex1 {
+    position: relative;
   }
 }
 /*# sourceMappingURL=main.css.map */
