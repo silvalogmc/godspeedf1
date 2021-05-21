@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
     body {
         height: 100vh;
         margin: 0;
@@ -31,15 +31,15 @@
     
     header {
         justify-content: space-between;
-        padding: 0em;
+        padding: 0.5em;
         display: flex;
+        flex-direction: row;
         width: auto;
         height: 10%;
         position: relative;
         .first-list {
             width: auto;
             height: auto;
-            display: flex;
             justify-content: space-between;
             font-size: 2.7vmin;
             .list {
@@ -123,7 +123,8 @@
     }
 
     .nav-desktop {
-        display: contents;
+        display: block;
+        
     }
 
     .nav-mobile {
@@ -132,5 +133,10 @@
 
     .icon {
         display: none;
+    }
+
+    .right-header {
+        position: absolute;
+        left: 55%;
     }
 }

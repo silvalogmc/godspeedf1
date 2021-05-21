@@ -171,19 +171,9 @@ header {
   color: black;
 }
 
-.list-div {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-}
-
-.flex2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+@media only screen and (max-width: 1000px) {
+  .first-list {
+    padding-top: 5%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

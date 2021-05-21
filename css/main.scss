@@ -151,12 +151,8 @@ header {
     }
 }
 
-.list-div {
-    order: 2;
+@media only screen and (max-width: 1000px) {
+    .first-list {
+        padding-top: 5%;
+    }
 }
-
-.flex2 {
-    display: flex;
-    flex-direction: row;
-}
-
