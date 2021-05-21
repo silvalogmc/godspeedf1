@@ -31,7 +31,7 @@
     
     header {
         justify-content: space-between;
-        padding: 0.5em;
+        padding: 0.75vh;
         display: flex;
         flex-direction: row;
         width: auto;
@@ -41,7 +41,7 @@
             width: auto;
             height: auto;
             justify-content: space-between;
-            font-size: 2.7vmin;
+            font-size: 2.7vw;
             .list {
                 font-weight: 200;
                 display: flex;
@@ -94,7 +94,8 @@
     
     .instagram {
         position: absolute;
-        top: 90%; left: 32%;
+        top: 50%; left: 50%;
+        transform: translate(-290%,80%);
         display: inline-block;
         padding-top: 2%;
         a {
@@ -137,6 +138,7 @@
 
     .right-header {
         position: absolute;
-        left: 55%;
+        right: 1vw;
     }
+
 }
