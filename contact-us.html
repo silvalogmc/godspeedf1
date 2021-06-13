@@ -4,8 +4,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>In Progress</h1>
+    <div class="nav-container">
+        <header>
+            <div class="flex1">
+                <div class="header">
+                    <a href="index.html"><img src="img/logo-sem-fundo.png" alt="logo" class="logo"></a>
+                    <div class="right-header">
+                        <nav class="nav-desktop">
+                            <ul class="first-list">
+                                <li><a href="about-us.html" class="list">ABOUT US</a></li>
+                                <li><a href="gallery.html" class="list">GALLERY</a></li>
+                                <li><a href="sponsors.html" class="list">SPONSORS</a></li>
+                                <li><a href="contact-us.html" class="list">CONTACT US</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="mobile">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="list-div">
+                <div class="header">
+                    <nav class="nav-mobile" id="links">
+                        <ul class="first-list">
+                            <li><a href="about-us.html" class="list">ABOUT US</a></li>
+                            <li><a href="gallery.html" class="list">GALLERY</a></li>
+                            <li><a href="sponsors.html" class="list">SPONSORS</a></li>
+                            <li><a href="contact-us.html" class="list">CONTACT US</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
 </body>
+<script src="js/main.js"></script>
 </html>

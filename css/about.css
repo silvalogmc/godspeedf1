@@ -1,0 +1,22 @@
+.about-hero {
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+}
+
+.about {
+  color: black;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 5%);
+          transform: translate(-50%, 5%);
+}
+
+.members {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=about.css.map */

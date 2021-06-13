@@ -1,0 +1,18 @@
+.about-hero {
+    display: grid;
+    position: relative;
+}
+
+.about {
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 50%; left: 50%;
+    transform: translate(-50%,5%);
+}
+
+.members {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
