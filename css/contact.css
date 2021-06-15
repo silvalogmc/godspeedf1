@@ -1,0 +1,28 @@
+.contact-hero {
+  position: relative;
+}
+
+.contact-text {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 10vmin;
+}
+
+#text {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 30%;
+  color: white;
+  font-size: 5vw;
+}
+/*# sourceMappingURL=contact.css.map */
