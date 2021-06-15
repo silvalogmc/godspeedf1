@@ -25,4 +25,78 @@ h1 {
   color: white;
   font-size: 5vw;
 }
+
+.insta-new {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-290%, 30%);
+          transform: translate(-290%, 30%);
+  display: inline-block;
+  padding-top: 2%;
+}
+
+.insta-new a {
+  color: #fff;
+}
+
+.insta-full-new {
+  float: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.insta-handle-new {
+  padding-left: 10%;
+  font-size: 3vmin;
+  position: absolute;
+  top: -30%;
+  left: 100%;
+}
+
+.email-logo {
+  width: 7vmin;
+  height: 7vmin;
+}
+
+.email {
+  position: absolute;
+  display: inline-block;
+  font-size: 3vmin;
+  top: 180%;
+  left: 36%;
+  width: 100%;
+  height: auto;
+}
+
+.email p {
+  color: white;
+}
+
+.email-full {
+  position: absolute;
+  float: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.email-handle {
+  position: absolute;
+  left: 5.5%;
+  top: -10%;
+}
+
+/* handle de email descentra 
+quando passa de mobile para desktop*/
 /*# sourceMappingURL=contact.css.map */

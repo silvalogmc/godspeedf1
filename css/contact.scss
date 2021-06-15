@@ -23,3 +23,65 @@ h1 {
     color: white;
     font-size: 5vw;
 }
+
+.insta-new {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-290%,30%);
+    display: inline-block;
+    padding-top: 2%;
+    a {
+        color: #fff; 
+    }
+}
+
+.insta-full-new {
+    float: left;
+    justify-content: space-between;
+    display: flex;
+    position: relative
+}
+
+.insta-handle-new {
+    padding-left: 10%;
+    font-size: 3vmin;
+    position: absolute;
+    top: -30%;
+    left: 100%;
+}
+
+.email-logo {
+    width: 7vmin;
+    height: 7vmin;
+}
+
+.email {
+    position: absolute;
+    display: inline-block;
+    font-size: 3vmin;
+    p {
+        color: white;
+    }
+    top: 180%;
+    left: 36%;
+    width: 100%;
+    height: auto;
+}
+
+.email-full {
+    position: absolute;
+    float: left;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.email-handle {
+    position: absolute;
+    left: 5.5%;
+    top: -10%;
+}
+
+/* handle de email descentra 
+quando passa de mobile para desktop*/
