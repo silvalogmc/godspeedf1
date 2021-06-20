@@ -56,25 +56,25 @@ h1 {
 }
 
 .email {
-    position: absolute;
+    position: relative;
     display: inline-block;
     font-size: 3vmin;
     p {
         color: white;
     }
-    top: 60%; left: 50%;
-    transform: translate(-18%,-20%);
+    top: 80%; left: 40%;
+    transform: translate(-10%,50%);
     width: 100%;
     height: auton
 }
 
 .email-full {
     position: absolute;
-    float: left;
     justify-content: space-between;
     display: flex;
     width: 100%;
-    height: auto;
+    /*left: 8%;
+    top: 7vw;*/
 }
 
 .email-handle {
@@ -83,5 +83,7 @@ h1 {
     top: -1vmin;
 }
 
+
 /* handle de email descentra 
-quando passa de mobile para desktop*/
+quando passa de mobile para desktop
+changed position type in email element*/
