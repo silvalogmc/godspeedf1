@@ -1,5 +1,7 @@
 .contact-hero {
   position: relative;
+  width: 100%;
+  height: auto;
 }
 
 .contact-text {
@@ -24,5 +26,81 @@ h1 {
   top: 30%;
   color: white;
   font-size: 5vw;
+}
+
+.insta-new {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-290%, 30%);
+          transform: translate(-290%, 30%);
+  display: inline-block;
+  padding-top: 2%;
+}
+
+.insta-new a {
+  color: #fff;
+}
+
+.insta-full-new {
+  float: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.insta-handle-new {
+  padding-left: 10%;
+  font-size: 3vmin;
+  position: absolute;
+  top: -30%;
+  left: 100%;
+}
+
+.email-logo {
+  width: 7vmin;
+  height: 7vmin;
+}
+
+.email {
+  position: absolute;
+  top: 190%;
+  left: 51%;
+  -webkit-transform: translate(-290%, 30%);
+          transform: translate(-290%, 30%);
+  display: inline-block;
+  font-size: 3vmin;
+}
+
+.email p {
+  color: white;
+}
+
+.email-full {
+  float: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.email-handle {
+  font-size: 3vmin;
+  position: absolute;
+  top: -30%;
+  width: 43vmin;
+}
+
+@media only screen and (min-width: 1000px) {
+  .email {
+    top: 150%;
+  }
 }
 /*# sourceMappingURL=contact.css.map */
