@@ -1,5 +1,7 @@
 .contact-hero {
   position: relative;
+  width: 100%;
+  height: auto;
 }
 
 .contact-text {
@@ -65,15 +67,13 @@ h1 {
 }
 
 .email {
-  position: relative;
+  position: absolute;
+  top: 190%;
+  left: 51%;
+  -webkit-transform: translate(-290%, 30%);
+          transform: translate(-290%, 30%);
   display: inline-block;
   font-size: 3vmin;
-  top: 80%;
-  left: 40%;
-  -webkit-transform: translate(-10%, 50%);
-          transform: translate(-10%, 50%);
-  width: 100%;
-  height: auton;
 }
 
 .email p {
@@ -81,25 +81,26 @@ h1 {
 }
 
 .email-full {
-  position: absolute;
+  float: left;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  /*left: 8%;
-    top: 7vw;*/
+  position: relative;
 }
 
 .email-handle {
+  font-size: 3vmin;
   position: absolute;
-  left: 8vmin;
-  top: -1vmin;
+  top: -30%;
+  width: 43vmin;
 }
 
-/* handle de email descentra 
-quando passa de mobile para desktop
-changed position type in email element*/
+@media only screen and (min-width: 1000px) {
+  .email {
+    top: 150%;
+  }
+}
 /*# sourceMappingURL=contact.css.map */
