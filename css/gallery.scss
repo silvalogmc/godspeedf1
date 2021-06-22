@@ -1,0 +1,12 @@
+.gallery-hero {
+    position: relative;
+    display: grid;
+}
+
+.gallery {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,1%);
+}
+
