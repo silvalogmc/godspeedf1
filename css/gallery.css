@@ -1,0 +1,14 @@
+.gallery-hero {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+}
+
+.gallery {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  -webkit-transform: translate(-50%, 1%);
+          transform: translate(-50%, 1%);
+}
+/*# sourceMappingURL=gallery.css.map */
