@@ -81,6 +81,37 @@ h1 {
     top: -30%;
     width: 43vmin;
 }
+.facebook{
+    position: absolute;
+    top: 190%; left: 51%;
+    transform: translate(-320%,70%);
+    display: inline-block;
+    font-size: 3vmin;
+    p {
+        color: white;
+    }
+}
+
+.facebook-full {
+    float: left;
+    justify-content: space-between;
+    display: flex;
+    position: relative
+}
+
+.facebook-logo {
+    width: 7vmin;
+    height: 7vmin;
+}
+
+.facebook-handle {
+    font-size: 3vmin;
+    position: absolute;
+    top: -30%;
+    width: 43vmin;
+    left: 30%;
+}
+
 
 @media only screen and (min-width: 1000px) {
     .email {
