@@ -102,8 +102,8 @@ h1 {
   position: absolute;
   top: 190%;
   left: 51%;
-  -webkit-transform: translate(-320%, 70%);
-          transform: translate(-320%, 70%);
+  -webkit-transform: translate(-310%, 135%);
+          transform: translate(-310%, 135%);
   display: inline-block;
   font-size: 3vmin;
 }
@@ -139,6 +139,9 @@ h1 {
 @media only screen and (min-width: 1000px) {
   .email {
     top: 150%;
+  }
+  .facebook {
+    top: 165%;
   }
 }
 /*# sourceMappingURL=contact.css.map */

@@ -84,7 +84,7 @@ h1 {
 .facebook{
     position: absolute;
     top: 190%; left: 51%;
-    transform: translate(-320%,70%);
+    transform: translate(-310%,135%);
     display: inline-block;
     font-size: 3vmin;
     p {
@@ -116,5 +116,9 @@ h1 {
 @media only screen and (min-width: 1000px) {
     .email {
         top: 150%;
+    }
+
+    .facebook {
+        top: 165%;
     }
 }
