@@ -98,9 +98,50 @@ h1 {
   width: 43vmin;
 }
 
+.facebook {
+  position: absolute;
+  top: 190%;
+  left: 51%;
+  -webkit-transform: translate(-310%, 135%);
+          transform: translate(-310%, 135%);
+  display: inline-block;
+  font-size: 3vmin;
+}
+
+.facebook p {
+  color: white;
+}
+
+.facebook-full {
+  float: left;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.facebook-logo {
+  width: 7vmin;
+  height: 7vmin;
+}
+
+.facebook-handle {
+  font-size: 3vmin;
+  position: absolute;
+  top: -30%;
+  width: 43vmin;
+  left: 30%;
+}
+
 @media only screen and (min-width: 1000px) {
   .email {
     top: 150%;
+  }
+  .facebook {
+    top: 165%;
   }
 }
 /*# sourceMappingURL=contact.css.map */
